@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.cdsframework</groupId>
+    <artifactId>cdsframework-cds</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>cdsframework-cds</name>
+    <modules>
+        <module>mts-ear-cds</module>
+        <module>mts-ejb-cds</module>
+  </modules>
+
+    <properties>
+        <netbeans.hint.license>lgpl-3.0</netbeans.hint.license>
+    </properties>
+    <repositories>
+        <repository>
+            <id>support.hln.com-release</id>
+            <name>support.hln.com-release</name>
+            <url>https://support.hln.com/artifactory/libs-release-local/</url>
+        </repository>
+        <repository>
+            <id>support.hln.com-snapshot</id>
+            <name>support.hln.com-snapshot</name>
+            <url>https://support.hln.com/artifactory/libs-snapshot-local/</url>
+        </repository>
+    </repositories>
+</project>

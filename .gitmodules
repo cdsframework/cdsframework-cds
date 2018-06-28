@@ -1,0 +1,6 @@
+[submodule "mts-ejb-cds"]
+	path = mts-ejb-cds
+	url = https://github.com/cdsframework/mts-ejb-cds.git
+[submodule "mts-ear-cds"]
+	path = mts-ear-cds
+	url = https://github.com/cdsframework/mts-ear-cds.git
